@@ -14,7 +14,7 @@ if(!isset($_SESSION['username']) || $_SESSION['user_role']!='member')
   //echo '<script>window.location.href = "admin.php";</script>';
 }
 
-//when session starts the variable is fetched from the login page and stored in the $email variable on profile page
+//when session starts the variables is fetched from the login page and stored in the $email variable on profile page
 $username=$_SESSION['username'];
 $user_role=$_SESSION['user_role'];
 
